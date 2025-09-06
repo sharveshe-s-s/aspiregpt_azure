@@ -1,0 +1,27 @@
+# FastAPI backend
+fastapi==0.105.0
+uvicorn[standard]==0.23.2
+
+# LangChain & FAISS
+langchain-community==0.1.30
+faiss-cpu==1.7.4
+sentence-transformers==2.2.2
+
+# OpenAI LLM API
+openai==1.31.0
+
+# Azure Blob Storage for FAISS
+azure-storage-blob==12.27.0
+
+# Text-to-Speech
+gTTS==2.3.2
+
+# Optional Speech-to-Text
+whisper @ git+https://github.com/openai/whisper.git
+
+# Utilities
+pandas==2.1.1
+python-dotenv==1.0.1
+requests==2.31.0
+
+python-3.10.10
